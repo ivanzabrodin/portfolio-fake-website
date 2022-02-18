@@ -13,7 +13,7 @@ body {
     display: flex;
     font-size: 18px;
     justify-content: space-between;
-    margin: 33px 0;
+    padding: 33px 0;
 }
 
 .navMenuItem {
@@ -44,4 +44,31 @@ body {
 .promoLang {
     writing-mode: vertical-lr;
     transform:rotate(180deg);
+}
+
+.promoImg {
+    padding-bottom: 105px;
+}
+
+.about {
+    background-color: #F6F6F6;
+    padding: 120px 0 110px 0;
+    text-align: center;
+}
+
+.aboutTitle {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.aboutBody {
+    margin: 0 auto 40px;
+    max-width: 600px;
+}
+
+.aboutBody:last-child {
+    margin: 0 auto 0;
 }
