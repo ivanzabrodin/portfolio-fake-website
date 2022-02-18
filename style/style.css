@@ -38,7 +38,8 @@ body {
 }
 
 .promoProfession {
-    max-width: 180px;
+    max-width: 200px;
+    font-size: 18px;
 }
 
 .promoLang {
@@ -56,19 +57,61 @@ body {
     text-align: center;
 }
 
-.aboutTitle {
+.sectionTitle {
     max-width: 600px;
-    margin: 0 auto 30px;
-    text-align: center;
-    font-size: 34px;
+    margin: 0 auto 50px;
+    font-size: 30px;
     font-weight: 700;
 }
 
 .aboutBody {
     margin: 0 auto 40px;
     max-width: 600px;
+    font-size: 18px;
 }
 
 .aboutBody:last-child {
     margin: 0 auto 0;
+}
+
+.skills {
+    padding: 90px 0 110px 0;
+    text-align: center;
+}
+
+.skillsBody {
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+
+.skillsArea {
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skillsItemImg {
+    margin-bottom: 24px;
+}
+
+.skillsItemName {
+    font-size: 14px;
+    color: #828282;
+    margin-bottom: 40px;
+}
+
+.skillsItemRatingStar {
+    margin-right: 9px;
+}
+
+.skillsItemRatingStar:last-child {
+    margin-right: 0;
+}
+
+.star {
+    display:inline-block;
+    width: 26px;
+    height: 26px;
+    background-image: url(img/star.png);
 }
