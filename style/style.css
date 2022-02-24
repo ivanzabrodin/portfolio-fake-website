@@ -59,7 +59,7 @@ body {
 
 .sectionTitle {
     max-width: 600px;
-    margin: 0 auto 50px;
+    margin: 0 auto 60px;
     font-size: 30px;
     font-weight: 700;
 }
@@ -109,9 +109,22 @@ body {
     margin-right: 0;
 }
 
-.star {
-    display:inline-block;
-    width: 26px;
-    height: 26px;
-    background-image: url(img/star.png);
+.portfolio {
+    text-align: center;
+    background-color: #F6F6F6;
+    padding: 113px 0 96px 0;
+}
+
+.portfolioImg {
+    margin-bottom: 40px;
+}
+
+.portfolioTitle {
+    display: block;
+    margin-bottom: 100px;
+    text-decoration: underline;
+}
+
+.portfolioTitle:last-child {
+    margin-bottom: 0;
 }
